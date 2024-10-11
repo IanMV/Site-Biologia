@@ -1,0 +1,67 @@
+/* ========================
+
+            HTML
+
+=========================*/
+html {
+    background-color: #BAB195;
+}
+
+/* ========================
+
+          CABEÇALHO
+
+=========================*/
+header {
+    background-color: #11091A;
+}
+
+
+
+/* ========================
+
+         MEIOCA ALTA
+
+=========================*/
+main section.introducao {
+
+}
+
+
+
+/* ========================
+
+         MEIOCA MÉDIA
+
+=========================*/
+main section.saibaMaises div.divisao {
+    background-color: #11091A;
+}
+
+/* ========================
+
+         MEIOCA ÚLTIMA
+
+=========================*/
+main section.saibaMaises div.conteudo {
+    background-color: #626970;
+}
+
+main section.saibaMaises div.conteudo div.saiba0 {
+
+}
+
+main section.saibaMaises div.conteudo div.saiba1 {
+
+}
+
+
+
+/* ========================
+
+          RODAPÉ
+
+=========================*/
+footer {
+    background-color: #11091A;
+}
