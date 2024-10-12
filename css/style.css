@@ -7,6 +7,7 @@ html {
     background-color: #BAB195;
 }
 
+
 /* ========================
 
           CABEÇALHO
@@ -14,7 +15,33 @@ html {
 =========================*/
 header {
     background-color: #11091A;
+    
 }
+
+li {
+    list-style: none;
+    margin: 2vw 3vw 2vw 0;
+}
+a {
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 2rem;
+    
+      
+}
+ul  {
+    justify-content: space-between;
+    display: flex;
+    
+}
+
+ li#separar {
+    margin: 2vw 40vw 3vw 2vw;
+}
+
+
+
 
 
 
@@ -23,11 +50,22 @@ header {
          MEIOCA ALTA
 
 =========================*/
-main section.introducao {
 
+section.introducao div.area {
+    display: flex;
+    margin: 7vw 10vw 7vw 10vw;
+    justify-content: space-between;
 }
 
+section.introducao img{
+  width: 30vw;
+}
 
+.introducao h1{
+    font-family: "Italiana", sans-serif;
+    
+    font-size: 10rem;
+}
 
 /* ========================
 
@@ -47,13 +85,7 @@ main section.saibaMaises div.conteudo {
     background-color: #626970;
 }
 
-main section.saibaMaises div.conteudo div.saiba0 {
 
-}
-
-main section.saibaMaises div.conteudo div.saiba1 {
-
-}
 
 
 
