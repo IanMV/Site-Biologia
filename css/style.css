@@ -115,37 +115,14 @@ main section.saibaMaises {
     background-color: #626970;
 }
 
-main section.saibaMaises div.explicacao {
-    padding: 2vw 0 9vw 0;
-}
-
-main section.saibaMaises div.explicacao div.saibaOrigins {
-    margin: 0 25vw 0 25vw;
-    padding: 0 0 5vw 0;
-}
-
-
-
-main section.saibaMaises div.explicacao div.saibaOrigins p {
-    font-size: 2rem;
+main section.saibaMaises div.explicacao p{
+    padding: 2vw 0 6vw 0;
+    font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
     text-align: center;
     color: #BAB195;
+    margin: 0 25vw 0 25vw;
     line-height: 2.5rem;
-}
-
-section.saibaMaises div.explicacao div.estrutura {
-    display: flex;
-    justify-content: center;
-    padding: 3vw 0 0 0;
-}
-
-section.saibaMaises div.explicacao div.estrutura div.texto {
-    padding: 0 15vw 0 0;
-}
-
-section.saibaMaises div.explicacao div.estrutura div.botao {
-    padding: 4vw 0 0 0;
 }
 
 
@@ -157,7 +134,7 @@ section.saibaMaises div.explicacao div.estrutura div.botao {
 =========================*/
 main section.conteudo div.citologia {
     background-color: #626970;
-    padding: 2vw 0 3vw 0;
+    padding: 2.5vw 0 2.5vw 0;
 }
 
 
@@ -173,8 +150,19 @@ links 1
 main section.conteudo div.citologia div.saiba0 {
     display: flex;
     justify-content: center;
-    padding: 3vw 0 3vw 0;
-}
+    padding: 2vw 0 2vw 0;
+    border: #11091A 10px solid;
+    border-radius: 2vw;
+    margin: 0 10vw 0 10vw;
+    background-image: url('celulas.jpg');
+    /* Adicione sua imagem de fundo aqui */
+    background-size: cover;
+    /* Faz a imagem cobrir toda a div */
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
+};
 
 main section.conteudo div.citologia div.saiba0 div.img {
     padding: 0 5vw 0 0;
@@ -196,18 +184,39 @@ links 2
 main section.conteudo div.citologia div.saiba1 {
     display: flex;
     justify-content: center;
+    padding: 2vw 0 2vw 0;
+    border: #11091A 10px solid;
+    border-radius: 2vw;
+    margin: 0 10vw 0 10vw;
+    background-image: url('celulas.jpg');
+    /* Adicione sua imagem de fundo aqui */
+    background-size: cover;
+    /* Faz a imagem cobrir toda a div */
+    background-repeat: no-repeat;
+    /* Não repete a imagem */
+    background-position: center;
+    /* Centraliza a imagem */
 }
+
 
 main section.conteudo div.citologia div.saiba1 div.img {
     padding: 0 0 0 5vw;
+
 }
 
 main section.conteudo div.citologia div.saiba1 div.link {
     padding: 5vw 0 0 0;
+
 }
 
 main section.conteudo div.citologia div.saiba1 div.link p {
     padding: 2vw 0 0 0;
+}
+
+main section.conteudo div.citologia div.saiba1 div.link h3 {
+    background-color: #11091A;
+    border-radius: 1vw;
+    padding: 2vw 2vw 2vw 2vw;
 }
 
 
