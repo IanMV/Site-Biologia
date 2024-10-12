@@ -12,7 +12,7 @@
     </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
-        </style>
+    </style>
 </head>
 
 <body>
@@ -20,17 +20,21 @@
         <div class="space">
             <nav>
                 <ul>
-                    <li id="separar">
+                    <li class="separar">
                         <a href="#">Início</a>
                     </li>
-
                     <li>
                         <a href="#">Células</a>
                     </li>
-                    <li><a href="#">Organelas</a></li>
-                    <li><a href="#">OutroTema</a></li>
-                    <li><a href="#">Referências</a></li>
-
+                    <li>
+                        <a href="#">Organelas</a>
+                    </li>
+                    <li>
+                        <a href="#">OutroTema</a>
+                    </li>
+                    <li>
+                        <a href="#">Referências</a>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -39,7 +43,7 @@
         <section class="introducao">
             <div class="area">
                 <div class="img">
-                    <img src="src/microscópioInicio.png" alt="">
+                    <img width="300" src="src/microscópioInicio.png" alt="">
                 </div>
                 <div class="title">
                     <h1>
@@ -53,39 +57,45 @@
                 </div>
             </div>
         </section>
-        <section class="explicacao">
-            <span class="divisao">
-                <h2>O QUE É CITOLOGIA</h2>
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente minus ea, animi aut temporibus reiciendis
-            sed harum soluta, numquam ab quod consectetur aliquid incidunt deleniti facilis similique maiores quis qui!
-        </section>
         <section class="saibaMaises">
-            <span class="divisao">
+            <div class="explicacao">
+                <div class="divisao">
+                    <h2>O QUE É CITOLOGIA</h2>
+                </div>
+                <div class="saibaOrigins">
+                    <p>
+                        A citologia, ou biologia celular, é um ramo da Biologia que estuda as células, suas estruturas e
+                        funções.
+                        Células são as menores unidades do nosso corpo e nós somos feitos de trilhões delas, elas têm
+                        vários
+                        tipos e cada uma desempenha uma função diferente.
+                        Nós perdemos e ganhamos células novas a todo momento, elas morrem e se regeneram
+                    </p>
+                </div>
+            </div>
+
+            <div class="divisao">
                 <h2>CONTEÚDOS</h2>
-            </span>
+            </div>
             <div class="conteudo">
                 <div class="saiba0">
                     <div class="img">
-                        <img src="src/celulaEucarionteProcarionteInicio.png"
+                        <img width="300" src="src/celulaEucarionteProcarionteInicio.png"
                             alt="imagem gerada por inteligência artificial, representando duas células, eucarionte e procarionte">
                     </div>
                     <div class="link">
                         <h3>
-                            CÉLULAS EUCARIOTAS <br>E PROCARIOTAS
+                            CÉLULAS EUCARIOTAS<br>E PROCARIOTAS
                         </h3>
                         <p>
                             resuminho sobre o tema
                         </p>
-                        <button><a href="#">Saiba Mais</a></button>
+                        <a href="#">Saiba Mais</a>
                     </div>
                 </div>
 
                 <div class="saiba1">
-                    <div class="img">
-                        <img src="src/organelasInicio.png"
-                            alt="imagem gerada por inteligência artificial, representando uma organela celular">
-                    </div>
+
                     <div class="link">
                         <h3>
                             ORGANELAS CELULARES
@@ -93,13 +103,17 @@
                         <p>
                             resuminho sobre o tema
                         </p>
-                        <button><a href="#">Saiba Mais</a></button>
+                        <a href="#">Saiba Mais</a>
+                    </div>
+                    <div class="img">
+                        <img width="300" src="src/organelasInicio.png"
+                            alt="imagem gerada por inteligência artificial, representando uma organela celular">
                     </div>
                 </div>
 
-                <div class="saiba2">
+                <div class="saiba0">
                     <div class="img">
-                        <img src="src/outroTemaInicio.png"
+                        <img width="300" src="src/outroTemaInicio.png"
                             alt="imagem gerada por inteligência artificial, representando algum tipo de celula">
                     </div>
                     <div class="link">
@@ -109,8 +123,7 @@
                         <p>
                             resuminho sobre o tema
                         </p>
-                        <button><a href="#">Saiba Mais</a></button>
-                    </div>
+                        <a href="#">Saiba Mais</a>
                 </div>
             </div>
         </section>

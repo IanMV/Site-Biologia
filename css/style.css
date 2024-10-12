@@ -7,6 +7,11 @@ html {
     background-color: #BAB195;
 }
 
+div.divisao {
+    background-color: #11091A;
+}
+
+
 
 /* ========================
 
@@ -15,33 +20,28 @@ html {
 =========================*/
 header {
     background-color: #11091A;
-    
 }
 
-li {
+header div.space nav ul li {
     list-style: none;
     margin: 2vw 3vw 2vw 0;
 }
-a {
+
+header div.space nav ul li a {
     text-decoration: none;
     color: #BAB195;
     font-family: "Jacques Francois", serif;
-    font-size: 2rem;
-    
-      
+    font-size: 1.5rem;
 }
-ul  {
+
+header div.space nav ul {
     justify-content: space-between;
     display: flex;
-    
 }
 
- li#separar {
-    margin: 2vw 40vw 3vw 2vw;
+header div.space nav ul li.separar {
+    margin: 2vw 33vw 3vw 4vw;
 }
-
-
-
 
 
 
@@ -50,22 +50,18 @@ ul  {
          MEIOCA ALTA
 
 =========================*/
-
 section.introducao div.area {
     display: flex;
     margin: 7vw 10vw 7vw 10vw;
     justify-content: space-between;
 }
 
-section.introducao img{
-  width: 30vw;
-}
-
-.introducao h1{
+main section.introducao div.area div.title h1 {
     font-family: "Italiana", sans-serif;
-    
     font-size: 10rem;
 }
+
+
 
 /* ========================
 
@@ -75,6 +71,11 @@ section.introducao img{
 main section.saibaMaises div.divisao {
     background-color: #11091A;
 }
+main section.saibaMaises div.saibaOrigins {
+    background-color: #626970;
+}
+
+
 
 /* ========================
 
@@ -85,7 +86,35 @@ main section.saibaMaises div.conteudo {
     background-color: #626970;
 }
 
+main section.saibaMaises div.conteudo div.saiba0 {
+    display: flex;
+    justify-content: center;
+}
 
+main section.saibaMaises div.conteudo div.saiba0 div.link a {
+    border: #11091A 10px solid;
+    background-color: #11091A;
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 1.5rem;
+}
+
+main section.saibaMaises div.conteudo div.saiba1 {
+    display: flex;
+    justify-content: center;
+}
+
+main section.saibaMaises div.conteudo div.saiba1 div.link a {
+    border: #11091A 10px solid;
+    background-color: #11091A;
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 1.5rem;
+}
 
 
 
