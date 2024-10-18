@@ -41,3 +41,94 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ========================
+
+        HTML Geral
+
+=========================*/
+html {
+    background-color: #BAB195;
+}
+
+html div.divisao {
+    background-color: #11091A;
+    padding: 3vw 0 3vw 0;
+}
+
+html div.divisao h2 {
+    color: #BAB195;
+    text-align: center;
+    font-family: "Jacques Francois", sans-serif;
+    font-size: 2.5rem;
+}
+
+html section a {
+    border: #11091A 5px solid;
+    background-color: #2F2F4D;
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 1.5rem;
+    padding: 0.7vw 2vw 0.7vw 2vw;
+}
+
+html h3 {
+    color: #E8D18E;
+    font-size: 3rem;
+    font-family: "Italiana", sans-serif;
+    text-align: center;
+	font-weight: bold;
+}
+
+html p {
+    color: #BAB195;
+    font-family: "Jacques Francois", sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
+/* ========================
+
+          CABEÇALHO GERAL
+
+=========================*/
+header {
+    background-color: #11091A;
+}
+
+header div.space nav ul {
+    justify-content: right;
+    display: flex;
+    padding: 0 1vw 0 0;
+}
+
+header div.space nav ul li {
+    list-style: none;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+header div.space nav ul li a {
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 1.4rem;
+
+}
+
+header div.space nav ul li.separar {
+    padding: 2vw 50vw 0 0;
+}
+
+
+/* ========================
+
+          RODAPÉ
+
+=========================*/
+footer {
+    background-color: #11091A;
+    color: #E8D18E;
+    text-align: center;
+    padding: 3vw 0 3vw 0;
+}

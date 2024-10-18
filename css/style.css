@@ -1,81 +1,8 @@
-/* ========================
-
-            HTML
-
-=========================*/
-html {
-    background-color: #BAB195;
-}
-
-html div.divisao {
-    background-color: #11091A;
-    padding: 3vw 0 3vw 0;
-}
-
-html div.divisao h2 {
-    color: #BAB195;
-    text-align: center;
-    font-family: "Jacques Francois", sans-serif;
-    font-size: 2.5rem;
-}
-
-html section a {
-    border: #11091A 10px solid;
-    background-color: #11091A;
-    border-radius: 0.5vw;
-    text-decoration: none;
-    color: #BAB195;
-    font-family: "Jacques Francois", serif;
-    font-size: 1.5rem;
-    padding: 0 1vw 0 1vw;
-}
-
-html h3 {
-    color: #E8D18E;
-    font-size: 3rem;
-    font-family: "Italiana", sans-serif;
-    text-align: center;
-}
-
-html p {
-    color: #BAB195;
-    font-family: "Jacques Francois", sans-serif;
-    font-size: 1.8rem;
-    text-align: center;
-}
 
 
 
-/* ========================
 
-          CABEÇALHO
 
-=========================*/
-header {
-    background-color: #11091A;
-}
-
-header div.space nav ul {
-    justify-content: right;
-    display: flex;
-    padding: 0 1vw 0 0;
-}
-
-header div.space nav ul li {
-    list-style: none;
-    padding: 2vw 2vw 2vw 2vw;
-}
-
-header div.space nav ul li a {
-    text-decoration: none;
-    color: #BAB195;
-    font-family: "Jacques Francois", serif;
-    font-size: 1.4rem;
-}
-
-header div.space nav ul li.separar {
-    padding: 2vw 40vw 0 0;
-}
 
 
 
@@ -115,8 +42,8 @@ main section.saibaMaises {
     background-color: #626970;
 }
 
-main section.saibaMaises div.explicacao p{
-    padding: 2vw 0 6vw 0;
+main section.saibaMaises div.explicacao p {
+    padding: 4vw 0 4vw 0;
     font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
     text-align: center;
@@ -149,9 +76,10 @@ links 1
 */
 main section.conteudo div.citologia div.saiba0 {
     display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 2vw 0 2vw 0;
     border: #11091A 10px solid;
+    justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
     background-image: url('celulas.jpg');
@@ -162,18 +90,18 @@ main section.conteudo div.citologia div.saiba0 {
     /* Não repete a imagem */
     background-position: center;
     /* Centraliza a imagem */
-};
+}
 
 main section.conteudo div.citologia div.saiba0 div.img {
-    padding: 0 5vw 0 0;
+    padding: 0 0 0 5vw;
 }
 
 main section.conteudo div.citologia div.saiba0 div.link {
-    padding: 5vw 0 0 0;
+    padding: 3vw 0 3vw 0;
 }
 
 main section.conteudo div.citologia div.saiba0 div.link p {
-    padding: 2vw 0 0 0;
+    padding: 2vw 0 3vw 0;
 }
 
 
@@ -183,13 +111,15 @@ links 2
 */
 main section.conteudo div.citologia div.saiba1 {
     display: flex;
+    text-align: center;
     justify-content: center;
     padding: 2vw 0 2vw 0;
     border: #11091A 10px solid;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background-image: url('celulas.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('background01.jpg');
     /* Adicione sua imagem de fundo aqui */
+
     background-size: cover;
     /* Faz a imagem cobrir toda a div */
     background-repeat: no-repeat;
@@ -205,30 +135,14 @@ main section.conteudo div.citologia div.saiba1 div.img {
 }
 
 main section.conteudo div.citologia div.saiba1 div.link {
-    padding: 5vw 0 0 0;
+    padding: 3vw 0 3vw 0;
 
 }
 
 main section.conteudo div.citologia div.saiba1 div.link p {
-    padding: 2vw 0 0 0;
-}
-
-main section.conteudo div.citologia div.saiba1 div.link h3 {
-    background-color: #11091A;
-    border-radius: 1vw;
-    padding: 2vw 2vw 2vw 2vw;
+    padding: 2vw 10vw 3vw 10vw;
 }
 
 
 
-/* ========================
 
-          RODAPÉ
-
-=========================*/
-footer {
-    background-color: #11091A;
-    color: #E8D18E;
-    text-align: center;
-    padding: 3vw 0 3vw 0;
-}
