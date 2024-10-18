@@ -1,45 +1,139 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/* ========================
+
+        Reset do CSS
+
+=========================*/
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* ========================
@@ -79,7 +173,7 @@ html h3 {
     font-size: 3rem;
     font-family: "Italiana", sans-serif;
     text-align: center;
-	font-weight: bold;
+    font-weight: bold;
 }
 
 html p {
@@ -88,27 +182,28 @@ html p {
     font-size: 1.8rem;
     text-align: center;
 }
+
 /* ========================
 
-          CABEÇALHO GERAL
+          Cabeçalho
 
 =========================*/
 header {
     background-color: #11091A;
 }
 
-header div.space nav ul {
+header div nav ul {
     justify-content: right;
     display: flex;
     padding: 0 1vw 0 0;
 }
 
-header div.space nav ul li {
+header div nav ul li {
     list-style: none;
     padding: 2vw 2vw 2vw 2vw;
 }
 
-header div.space nav ul li a {
+header div nav ul li a {
     text-decoration: none;
     color: #BAB195;
     font-family: "Jacques Francois", serif;
@@ -116,14 +211,14 @@ header div.space nav ul li a {
 
 }
 
-header div.space nav ul li.separar {
+header div nav ul li.separarInicio {
     padding: 2vw 50vw 0 0;
 }
 
 
 /* ========================
 
-          RODAPÉ
+          Rodapé
 
 =========================*/
 footer {

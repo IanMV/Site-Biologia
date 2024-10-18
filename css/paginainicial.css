@@ -1,28 +1,20 @@
-
-
-
-
-
-
-
-
 /* ========================
 
-         MEIOCA ALTA
+          Início
 
 =========================*/
-section.introducao div.area {
+section.introducaoCitologia div.areaInicio {
     display: flex;
     margin: 8vw 10vw 8vw 10vw;
     justify-content: space-between;
 }
 
-main section.introducao div.area div.title h1 {
+main section.introducaoCitologia div.areaInicio div.titleInicio h1 {
     font-family: "Italiana", sans-serif;
     font-size: 10rem;
 }
 
-main section.introducao div.area div.title p {
+main section.introducaoCitologia div.areaInicio div.titleInicio p {
     font-family: "Jacques Francois", sans-serif;
     font-size: 2.5rem;
     text-align: center;
@@ -35,14 +27,14 @@ main section.introducao div.area div.title p {
 
 /* ========================
 
-         MEIOCA MÉDIA
+     O'que é Citologia?
 
 =========================*/
 main section.saibaMaises {
     background-color: #626970;
 }
 
-main section.saibaMaises div.explicacao p {
+main section.saibaMaises div.explicacaoCitologia p {
     padding: 4vw 0 4vw 0;
     font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
@@ -56,10 +48,10 @@ main section.saibaMaises div.explicacao p {
 
 /* ========================
 
-         MEIOCA ÚLTIMA
+   Link para os conteúdos
 
 =========================*/
-main section.conteudo div.citologia {
+main section.conteudo div.linkises {
     background-color: #626970;
     padding: 2.5vw 0 2.5vw 0;
 }
@@ -74,7 +66,7 @@ __________*/
 /*
 links 1
 */
-main section.conteudo div.citologia div.saiba0 {
+main section.conteudo div.linkises div.saiba0 {
     display: flex;
     text-align: center;
     padding: 2vw 0 2vw 0;
@@ -83,24 +75,20 @@ main section.conteudo div.citologia div.saiba0 {
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
     background-image: url('celulas.jpg');
-    /* Adicione sua imagem de fundo aqui */
     background-size: cover;
-    /* Faz a imagem cobrir toda a div */
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
 }
 
-main section.conteudo div.citologia div.saiba0 div.img {
+main section.conteudo div.linkises div.saiba0 div.img {
     padding: 0 0 0 5vw;
 }
 
-main section.conteudo div.citologia div.saiba0 div.link {
+main section.conteudo div.linkises div.saiba0 div.link {
     padding: 3vw 0 3vw 0;
 }
 
-main section.conteudo div.citologia div.saiba0 div.link p {
+main section.conteudo div.linkises div.saiba0 div.link p {
     padding: 2vw 0 3vw 0;
 }
 
@@ -109,7 +97,7 @@ main section.conteudo div.citologia div.saiba0 div.link p {
 /*
 links 2
 */
-main section.conteudo div.citologia div.saiba1 {
+main section.conteudo div.linkises div.saiba1 {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -118,31 +106,22 @@ main section.conteudo div.citologia div.saiba1 {
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
     background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('background01.jpg');
-    /* Adicione sua imagem de fundo aqui */
-
     background-size: cover;
-    /* Faz a imagem cobrir toda a div */
     background-repeat: no-repeat;
-    /* Não repete a imagem */
     background-position: center;
-    /* Centraliza a imagem */
 }
 
 
-main section.conteudo div.citologia div.saiba1 div.img {
+main section.conteudo div.linkises div.saiba1 div.img {
     padding: 0 0 0 5vw;
 
 }
 
-main section.conteudo div.citologia div.saiba1 div.link {
+main section.conteudo div.linkises div.saiba1 div.link {
     padding: 3vw 0 3vw 0;
 
 }
 
-main section.conteudo div.citologia div.saiba1 div.link p {
+main section.conteudo div.linkises div.saiba1 div.link p {
     padding: 2vw 10vw 3vw 10vw;
 }
-
-
-
-
