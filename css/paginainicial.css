@@ -3,6 +3,17 @@
           Início
 
 =========================*/
+html section a {
+    border: #11091A 5px solid;
+    background-color: #2F2F4D;
+    border-radius: 0.5vw;
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", serif;
+    font-size: 1.5rem;
+    padding: 0.7vw 2vw 0.7vw 2vw;
+}
+
 section.introducaoCitologia div.areaInicio {
     display: flex;
     margin: 8vw 10vw 8vw 10vw;
@@ -66,6 +77,7 @@ __________*/
 /*
 links 1
 */
+
 main section.conteudo div.linkises div.saiba0 {
     display: flex;
     text-align: center;
@@ -74,7 +86,7 @@ main section.conteudo div.linkises div.saiba0 {
     justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background-image: url('celulas.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('eucarionteprocarionte.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -124,4 +136,64 @@ main section.conteudo div.linkises div.saiba1 div.link {
 
 main section.conteudo div.linkises div.saiba1 div.link p {
     padding: 2vw 10vw 3vw 10vw;
+}
+
+/*
+links 3
+*/
+
+main section.conteudo div.linkises div.saiba2 {
+    display: flex;
+    text-align: center;
+    padding: 2vw 0 2vw 0;
+    border: #11091A 10px solid;
+    justify-content: center;
+    border-radius: 2vw;
+    margin: 0 10vw 0 10vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('organela.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section.conteudo div.linkises div.saiba2 div.img {
+    padding: 0 0 0 5vw;
+}
+
+main section.conteudo div.linkises div.saiba2 div.link {
+    padding: 3vw 0 3vw 0;
+}
+
+main section.conteudo div.linkises div.saiba2 div.link p {
+    padding: 2vw 8vw 3vw 8vw;
+}
+
+/*
+links 4
+*/
+
+main section.conteudo div.linkises div.saiba3 {
+    display: flex;
+    text-align: center;
+    padding: 2vw 0 2vw 0;
+    border: #11091A 10px solid;
+    justify-content: center;
+    border-radius: 2vw;
+    margin: 0 10vw 0 10vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('divisaocelular.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main section.conteudo div.linkises div.saiba3 div.img {
+    padding: 0 0 0 5vw;
+}
+
+main section.conteudo div.linkises div.saiba3 div.link {
+    padding: 3vw 0 3vw 0;
+}
+
+main section.conteudo div.linkises div.saiba3 div.link p {
+    padding: 2vw 0 3vw 0;
 }

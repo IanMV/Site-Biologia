@@ -1,0 +1,50 @@
+/*------------------------
+        Primeira divisão
+--------------------------*/
+
+main section.explicacao {
+        background-color: #BAB195;
+}
+
+main section.explicacao h1 {
+        font-family: "Italiana", sans-serif;
+        color: #11091A;
+        font-size: 5rem;
+        padding: 4vw 0 3vw 0;
+        text-align: center;
+}
+
+main section.explicacao p {
+        color: #11091A;
+        font-family: "Jacques Francois", sans-serif;
+        font-size: 2rem;
+        text-align: center;
+        padding: 1vw 10vw 4vw 10vw;
+}
+
+main section.organelas div.fundo {
+        background-color: #626970;
+        display: flex;
+        justify-content: space-around;
+        padding: 0 10vw 0 10vw;
+}
+main section.organelas div.fundo div {
+        display: flex;
+        flex-direction: column;
+        padding: 5vw 0 5vw 0;
+}
+
+main section.organelas div.fundo a {
+        text-decoration: none;
+        color: #E8D18E;
+        font-family: "Italiana", sans-serif;
+        font-size: 4rem;
+        justify-content: center;
+        text-align: center;
+        padding: 3vw 0 3vw 0;
+
+}
+
+main section.organelas div.fundo a:hover {
+        text-decoration: underline;
+}

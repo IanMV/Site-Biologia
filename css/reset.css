@@ -157,16 +157,7 @@ html div.divisao h2 {
     font-size: 2.5rem;
 }
 
-html section a {
-    border: #11091A 5px solid;
-    background-color: #2F2F4D;
-    border-radius: 0.5vw;
-    text-decoration: none;
-    color: #BAB195;
-    font-family: "Jacques Francois", serif;
-    font-size: 1.5rem;
-    padding: 0.7vw 2vw 0.7vw 2vw;
-}
+
 
 html h3 {
     color: #E8D18E;
