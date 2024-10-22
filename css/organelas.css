@@ -34,7 +34,7 @@ main section.organelas div.fundo div {
         padding: 5vw 0 5vw 0;
 }
 
-main section.organelas div.fundo a {
+main section.organelas div.fundo details {
         text-decoration: none;
         color: #E8D18E;
         font-family: "Italiana", sans-serif;
@@ -42,10 +42,19 @@ main section.organelas div.fundo a {
         justify-content: center;
         text-align: center;
         padding: 3vw 0 3vw 0;
-
 }
 
-main section.organelas div.fundo a:hover {
-       text-decoration: underline #11091A;
+main section.organelas div.fundo summary{
+        list-style: none;
+        font-weight: bold;
+        cursor: pointer;
+}
+
+main section.organelas div.fundo p{
+        margin: 30px;
+}
+
+main section.organelas div.fundo summary:hover {
+        text-decoration: underline #11091A;
 }
 
