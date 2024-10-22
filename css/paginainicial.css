@@ -16,18 +16,18 @@ html section a {
 
 section.introducaoCitologia div.areaInicio {
     display: flex;
-    margin: 8vw 10vw 8vw 10vw;
+    margin: 10vw 10vw 8vw 10vw;
     justify-content: space-between;
 }
 
 main section.introducaoCitologia div.areaInicio div.titleInicio h1 {
     font-family: "Italiana", sans-serif;
-    font-size: 10rem;
+    font-size: 8rem;
 }
 
 main section.introducaoCitologia div.areaInicio div.titleInicio p {
     font-family: "Jacques Francois", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     padding: 5vw 0 0 0;
     line-height: 3rem;
@@ -101,7 +101,7 @@ main section.conteudo div.linkises div.saiba0 div.link {
 }
 
 main section.conteudo div.linkises div.saiba0 div.link p {
-    padding: 2vw 0 3vw 0;
+    padding: 2vw 10vw 3vw 10vw;
 }
 
 
@@ -165,7 +165,7 @@ main section.conteudo div.linkises div.saiba2 div.link {
 }
 
 main section.conteudo div.linkises div.saiba2 div.link p {
-    padding: 2vw 8vw 3vw 8vw;
+    padding: 2vw 10vw 3vw 10vw;
 }
 
 /*
@@ -180,7 +180,7 @@ main section.conteudo div.linkises div.saiba3 {
     justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('divisaocelular.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.650), rgba(0, 0, 0, 0.650)), url('divisaoCelular.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -195,5 +195,5 @@ main section.conteudo div.linkises div.saiba3 div.link {
 }
 
 main section.conteudo div.linkises div.saiba3 div.link p {
-    padding: 2vw 0 3vw 0;
+    padding: 2vw 10vw 3vw 10vw;
 }
