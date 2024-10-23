@@ -1,0 +1,45 @@
+main section.banner div.flex {
+    background-color: #BAB195;
+    display: flex;
+    justify-content: space-around;
+}
+
+main section.banner img{
+   padding: 6vw 0 5vw 4vw;
+}
+
+main section.banner h1 {
+    font-family: "Italiana", sans-serif;
+    color: #11091A;
+    font-size: 8rem;
+    padding: 10vw 10vw 2vw 5vw;
+    text-align: center;
+}
+
+main section.banner p {
+    color: #11091A;
+    padding: 1vw 5vw 6vw 5vw;
+    text-align: center;
+}
+
+main section.referencias {
+    background-color: #626970;
+}
+
+main section.referencias ul li a{
+    text-decoration: none;
+    color: #BAB195;
+    font-family: "Jacques Francois", sans-serif;
+    font-size: 3rem;   
+}
+main section.referencias a:hover {
+    color: #11091A;
+}
+
+main section.referencias ul {
+    padding: 7vw 0 7vw 0;
+}
+main section.referencias ul li {
+    padding: 2vw 0 0 0;
+    text-align: center;
+}

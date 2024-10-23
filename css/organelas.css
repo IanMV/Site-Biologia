@@ -22,6 +22,10 @@ main section.explicacao p {
         padding: 1vw 10vw 4vw 10vw;
 }
 
+main section.organelas p{
+        line-height: 3rem;
+        
+}
 main section.organelas div.fundo {
         background-color: #626970;
         display: flex;
@@ -32,6 +36,7 @@ main section.organelas div.fundo div {
         display: flex;
         flex-direction: column;
         padding: 5vw 0 5vw 0;
+       
 }
 
 main section.organelas div.fundo details {
@@ -42,19 +47,24 @@ main section.organelas div.fundo details {
         justify-content: center;
         text-align: center;
         padding: 3vw 0 3vw 0;
+    
 }
 
 main section.organelas div.fundo summary{
         list-style: none;
         font-weight: bold;
         cursor: pointer;
+        overflow: hidden;
+        white-space: nowrap;
 }
 
 main section.organelas div.fundo p{
         margin: 30px;
+       
 }
 
 main section.organelas div.fundo summary:hover {
-        text-decoration: underline #11091A;
+        text-decoration: underline 3px #11091A;
+      
 }
 
