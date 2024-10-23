@@ -1,156 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organelas Celulares</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/organelas.css">
+    <script src="scriptOrganelas.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 
         @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
     </style>
 </head>
+
 <body>
-        <header>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <li class="separarInicio">
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="indexEucarionteProcariontes.html">Células</a>
+                    </li>
+                    <li>
+                        <a href="indexOrganelas.html">Organelas</a>
+                    </li>
+                    <li>
+                        <a href="#">Divisão Celular</a>
+                    </li>
+                    <li>
+                        <a href="referencias.html">Referências</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="explicacao">
             <div>
-                <nav>
-                    <ul>
-                        <li class="separarInicio">
-                            <a href="index.html">Início</a>
-                        </li>
-                        <li>
-                            <a href="indexEucarionteProcariontes.html">Células</a>
-                        </li>
-                        <li>
-                            <a href="indexOrganelas.html">Organelas</a>
-                        </li>
-                        <li>
-                            <a href="#">Divisão Celular</a>
-                        </li>
-                        <li>
-                            <a href="referencias.html">Referências</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="explicacao">
-                <div><h1>Organelas Celulares</h1>
-                <p>As organelas celulares são componentes das células que realizam 
-                    atividades essenciais para as células. Suas estruturas são compostas 
-                    por membranas internas com formas e funções diferentes, algumas 
+                <h1>Organelas Celulares</h1>
+                <p>As organelas celulares são componentes das células que realizam
+                    atividades essenciais para as células. Suas estruturas são compostas
+                    por membranas internas com formas e funções diferentes, algumas
                     organelas são exclusivas de células vegetais ou animais.
-                    </p></div>
-                    
+                </p>
+            </div>
 
-            </section>
-            <section class="organelas">
-                <div class="divisao">
-                    <h2>O QUE SÃO</h2>
+
+        </section>
+        <section class="organelas">
+            <div class="divisao">
+                <h2>O QUE SÃO</h2>
+            </div>
+            <div class="container">
+                <div>
+                    <ul>
+                        <li onclick="openTab('content1')">Mitocôndria</li>
+                        <li onclick="openTab('content2')">RER</li>
+                        <li onclick="openTab('content3')">Lisossomos</li>
+                        <li onclick="openTab('content4')">Aparelho de Golgi</li>
+                        <li onclick="openTab('content5')">Citoplasma</li>
+                        <li onclick="openTab('content6')">Núcleo</li>
+                        <li onclick="openTab('content7')">Cloropasto</li>
+
+                    </ul>
                 </div>
-                <div class="fundo">
-                    <div>
-                        <details>
-                            <summary>Mitocôndria</summary>
-                            <p> As mitocôndrias são organelas celulares encontradas em grande quantidade com grande atividade metabólica, o número de mitocôndrias varia de uma célula para outra, porém, normalmente, observam-se centenas de mitocôndrias em uma única célula. São organelas compostas por membrana dupla, sendo uma externa e uma interna que apresenta muitas dobras, as chamadas cristas mitocondriais. Dentro da membrana interna há a matriz mitocondrial.
-                                Na matriz mitocondrial, encontra-se uma grande quantidade de enzimas que atuam na respiração celular, outras proteínas, material genético (DNA e RNA) e ribossomos.
-                                
-                                As mitocôndrias têm capacidade de se reproduzir e sua função é realizar a respiração celular que produz a maior parte da energia utilizada nas funções vitais.
-                                </p>
+                <div>
+                    <ul>
+                        <li onclick="openTab('content8')">Ribossomos</li>
+                        <li onclick="openTab('content9')">REL</li>
+                        <li onclick="openTab('content10')">Peroxissomos</li>
+                        <li onclick="openTab('content11')">Membrana Plasmática</li>
+                        <li onclick="openTab('content12')">Centríolos</li>
+                        <li onclick="openTab('content13')">Parede Celular</li>
+                        <li onclick="openTab('content14')">Vacúolos</li>
+
+                    </ul>
+                </div>
+<!--==========================================================
+                        BOXES
+===========================================================-->
+                <div>
+                    <div id="info-box" class="info-box">
+                        <div id="content1" class="content">
+                            <h2>Mitocôndria</h2>
+                            <p> As mitocôndrias são organelas celulares encontradas em grande quantidade com grande
+                                atividade metabólica, o número de mitocôndrias varia de uma célula para outra, porém,
+                                normalmente, observam-se centenas de mitocôndrias em uma única célula. São organelas
+                                compostas por membrana dupla, sendo uma externa e uma interna que apresenta muitas
+                                dobras,
+                                as chamadas cristas mitocondriais. Dentro da membrana interna há a matriz mitocondrial.
+                                Na matriz mitocondrial, encontra-se uma grande quantidade de enzimas que atuam na
+                                respiração
+                                celular, outras proteínas, material genético (DNA e RNA) e ribossomos.
+
+                                As mitocôndrias têm capacidade de se reproduzir e sua função é realizar a respiração
+                                celular
+                                que produz a maior parte da energia utilizada nas funções vitais.
+                            </p>
                             <img src="src/mitocondria (2).png" alt="mitocôndria" height="200">
-                        </details>
-                        <details>
-                            <summary>RER</summary>
-                            <p>O retículo endoplasmático rugoso (RER) é uma organela presente nas células eucarióticas, responsável pela síntese e transporte de proteínas. Sua superfície é coberta por ribossomos, o que lhe confere uma aparência rugosa, daí seu nome. Esses ribossomos produzem proteínas que são geralmente destinadas à membrana celular, a outras organelas, ou para exportação fora da célula. Após a síntese, as proteínas são modificadas dentro do RER e transportadas em vesículas para o complexo de Golgi, onde são processadas e enviadas ao seu destino final. O RER tem um papel fundamental em células que produzem grandes quantidades de proteínas, como as células do pâncreas e as células imunológicas.</p>
+                        </div>
+                        <div id="content2" class="content">
+                            <h2>RER</h2>
+                            <p>O retículo endoplasmático rugoso (RER) é uma organela presente nas células eucarióticas,
+                                responsável pela síntese e transporte de proteínas. Sua superfície é coberta por
+                                ribossomos,
+                                o que lhe confere uma aparência rugosa, daí seu nome. Esses ribossomos produzem
+                                proteínas
+                                que são geralmente destinadas à membrana celular, a outras organelas, ou para exportação
+                                fora da célula. Após a síntese, as proteínas são modificadas dentro do RER e
+                                transportadas
+                                em vesículas para o complexo de Golgi, onde são processadas e enviadas ao seu destino
+                                final.
+                                O RER tem um papel fundamental em células que produzem grandes quantidades de proteínas,
+                                como as células do pâncreas e as células imunológicas.</p>
                             <img src="src/reticuloendoplasmatico.png" alt="retículo endoplasmático rugoso" height="200">
-                        </details>
-                        <details>
-                            <summary>Lisossomos</summary>
-                            <p> Os lisossomos são envolvidos apenas pela bicamada lipídica e no seu interior há enzimas digestivas. Sua função é digerir moléculas orgânicas como lipídios, carboidratos, proteínas e ácidos nucleicos (DNA e RNA). O interior dos lisossomos é ácido pois possui enzimas digestivas, que quebram as moléculas em pequenas porções, fazendo a digestão. As moléculas a serem digeridas são englobadas por endocitose e entram na célula envolvidas em vesículas formadas a partir da membrana chamados endossomas. Depois elas se fundem com os lisossomos primários e são quebradas, originando partes menores, como os ácidos graxos. Essas moléculas pequenas saem do lisossomo e são aproveitadas no citosol da célula.
+                        </div>
+                        <div id="content3" class="content">
+                            <h2>Lisossomos</h2>
+                            <p> Os lisossomos são envolvidos apenas pela bicamada lipídica e no seu interior há enzimas
+                                digestivas. Sua função é digerir moléculas orgânicas como lipídios, carboidratos,
+                                proteínas
+                                e ácidos nucleicos (DNA e RNA). O interior dos lisossomos é ácido pois possui enzimas
+                                digestivas, que quebram as moléculas em pequenas porções, fazendo a digestão. As
+                                moléculas a
+                                serem digeridas são englobadas por endocitose e entram na célula envolvidas em vesículas
+                                formadas a partir da membrana chamados endossomas. Depois elas se fundem com os
+                                lisossomos
+                                primários e são quebradas, originando partes menores, como os ácidos graxos. Essas
+                                moléculas
+                                pequenas saem do lisossomo e são aproveitadas no citosol da célula.
 
 
-                                Endocitose é um processo que ocorre nas células e tem por objetivo trazer para o interior dessa estrutura substâncias por meio da absorção na membrana plasmática. 
-                                </p>
+                                Endocitose é um processo que ocorre nas células e tem por objetivo trazer para o
+                                interior
+                                dessa estrutura substâncias por meio da absorção na membrana plasmática.
+                            </p>
                             <img src="src/lisossomos.png" alt="lisossomos" height="200">
-                        </details>
-                        <details>
-                            <summary>Aparelho de Golgi</summary>
-                            <p>O aparelho de Golgi, ou complexo de Golgi é uma organela formada por pilhas de membranas achatadas, chamadas de cisternas. Sua principal função é modificar, empacotar e distribuir proteínas e lipídios produzidos no retículo endoplasmático. No Golgi, as proteínas podem sofrer modificações adicionais, como glicosilação, antes de serem enviadas para seus destinos finais, que podem incluir a membrana plasmática, os lisossomos ou o exterior da célula. Também é responsável pela formação de vesículas de secreção e lisossomos.</p>
+                        </div>
+                        <div id="content4" class="content">
+                            <h2>Aparelho de Golgi</h2>
+                            <p>O aparelho de Golgi, ou complexo de Golgi é uma organela formada por pilhas de membranas
+                                achatadas, chamadas de cisternas. Sua principal função é modificar, empacotar e
+                                distribuir
+                                proteínas e lipídios produzidos no retículo endoplasmático. No Golgi, as proteínas podem
+                                sofrer modificações adicionais, como glicosilação, antes de serem enviadas para seus
+                                destinos finais, que podem incluir a membrana plasmática, os lisossomos ou o exterior da
+                                célula. Também é responsável pela formação de vesículas de secreção e lisossomos.</p>
                             <img src="src/golgi.png" alt="aparelho de golgi" height="200">
-                        </details>
-                        <details>
-                            <summary>Citoplasma</summary>
-                            <p>O citoplasma é a parte da célula que fica entre a membrana plasmática e o núcleo, onde estão localizadas as organelas celulares. É composto por uma substância gelatinosa chamada citosol, que contém água, sais, proteínas e outros nutrientes essenciais para a célula. O citoplasma serve como meio de transporte de substâncias e é onde ocorrem muitas reações metabólicas importantes, como a glicólise. Ele também ajuda a manter a forma da célula e dá suporte às organelas, facilitando a movimentação e interação entre elas.</p>
+                        </div>
+                        <div id="content5" class="content">
+                            <h2>Citoplasma</h2>
+                            <p>O citoplasma é a parte da célula que fica entre a membrana plasmática e o núcleo, onde
+                                estão
+                                localizadas as organelas celulares. É composto por uma substância gelatinosa chamada
+                                citosol, que contém água, sais, proteínas e outros nutrientes essenciais para a célula.
+                                O
+                                citoplasma serve como meio de transporte de substâncias e é onde ocorrem muitas reações
+                                metabólicas importantes, como a glicólise. Ele também ajuda a manter a forma da célula e
+                                dá
+                                suporte às organelas, facilitando a movimentação e interação entre elas.</p>
                             <img src="src/citoplasma.png" alt="citoplasma" height="200">
-                        </details>
-                        <details>
-                            <summary>Núcleo</summary>
-                            <p>O núcleo é a principal organela de controle da célula eucariótica, armazenando o DNA, que contém as informações genéticas necessárias para regular as funções celulares e a reprodução. Envolvido pela membrana nuclear ou envoltório nuclear, ele controla a passagem de moléculas entre o núcleo e o citoplasma. Dentro do núcleo, encontramos o nucléolo, onde ocorre a síntese de RNA ribossômico (rRNA), essencial para a formação de ribossomos. O núcleo é, portanto, fundamental para a regulação da atividade genética e do ciclo celular.</p>
+                        </div>
+                        <div id="content6" class="content">
+                            <h2>Núcleo</h2>
+                            <p>O núcleo é a principal organela de controle da célula eucariótica, armazenando o DNA, que
+                                contém as informações genéticas necessárias para regular as funções celulares e a
+                                reprodução. Envolvido pela membrana nuclear ou envoltório nuclear, ele controla a
+                                passagem
+                                de moléculas entre o núcleo e o citoplasma. Dentro do núcleo, encontramos o nucléolo,
+                                onde
+                                ocorre a síntese de RNA ribossômico (rRNA), essencial para a formação de ribossomos. O
+                                núcleo é, portanto, fundamental para a regulação da atividade genética e do ciclo
+                                celular.
+                            </p>
                             <img src="src/nucleo.png" alt="núcleo" height="200">
-                        </details>
-                        <details>
-                            <summary>Cloropasto</summary>
-                            <p>Presentes apenas em células vegetais e em algumas algas, os cloroplastos são responsáveis pela fotossíntese, processo que converte luz solar em energia química armazenada em moléculas de glicose. Eles contêm o pigmento clorofila, que dá às plantas sua cor verde e captura a luz solar. Como as mitocôndrias, os cloroplastos têm DNA próprio e são formados por membranas internas chamadas tilacoides, onde ocorrem as reações de fotossíntese.</p>
+                        </div>
+                        <div id="content7" class="content">
+                            <h2>Cloropasto</h2>
+                            <p>Presentes apenas em células vegetais e em algumas algas, os cloroplastos são responsáveis
+                                pela fotossíntese, processo que converte luz solar em energia química armazenada em
+                                moléculas de glicose. Eles contêm o pigmento clorofila, que dá às plantas sua cor verde
+                                e
+                                captura a luz solar. Como as mitocôndrias, os cloroplastos têm DNA próprio e são
+                                formados
+                                por membranas internas chamadas tilacoides, onde ocorrem as reações de fotossíntese.</p>
                             <img src="src/cloropasto.png" alt="cloropasto" height="200">
-                        </details>
-                    </div>
-                    <div>
-                        <details>
-                            <summary>Ribossomos</summary>
-                            <p>São as organelas mais abundantes nas células. Ribossomos são estruturas celulares, presentes em células procarióticas e eucarióticas, responsáveis pela síntese de proteínas. Essas estruturas são formadas por duas subunidades, uma maior e uma menor, constituídas por moléculas de RNA (ácido ribonucleico) e proteínas.
+                        </div>
 
-                                As proteínas são macromoléculas que são compostas por aminoácidos, as proteínas constituem músculos, tendões, cartilagens, tecido conjuntivo, unhas e cabelos, além de alguns hormônios.
-                                
-                                Os aminoácidos são utilizados na síntese de proteínas,  Assim, eles ligam-se entre si para formar as proteínas, sendo portanto a "matéria prima" desses macronutrientes.
-                                </p>
+<!--==========================================================
+                LISTA 2
+===========================================================-->
+
+                        <div id="content8" class="content">
+                            <h2>Ribossomos</h2>
+                            <p>São as organelas mais abundantes nas células. Ribossomos são estruturas celulares,
+                                presentes
+                                em células procarióticas e eucarióticas, responsáveis pela síntese de proteínas. Essas
+                                estruturas são formadas por duas subunidades, uma maior e uma menor, constituídas por
+                                moléculas de RNA (ácido ribonucleico) e proteínas.
+
+                                As proteínas são macromoléculas que são compostas por aminoácidos, as proteínas
+                                constituem
+                                músculos, tendões, cartilagens, tecido conjuntivo, unhas e cabelos, além de alguns
+                                hormônios.
+
+                                Os aminoácidos são utilizados na síntese de proteínas, Assim, eles ligam-se entre si
+                                para
+                                formar as proteínas, sendo portanto a "matéria prima" desses macronutrientes.
+                            </p>
                             <img src="src/ribossomos.png" alt="ribossomos" height="200">
-                        </details>
-                        <details>
-                            <summary>REL</summary>
-                            <p>O retículo endoplasmático liso (REL) é uma organela presente nas células eucarióticas, caracterizada pela ausência de ribossomos em sua superfície, o que lhe dá um aspecto liso. Suas funções são diversas, incluindo a síntese de lipídios (como fosfolipídios e colesterol), o metabolismo de carboidratos, a desintoxicação de substâncias tóxicas e o armazenamento de íons de cálcio, essencial para processos como a contração muscular. O REL é especialmente abundante em células que realizam a síntese de hormônios esteroides, como as células das glândulas suprarrenais, e em células do fígado, onde auxilia na desintoxicação de drogas e outros compostos químicos.</p>
+                        </div>
+                        <div id="content9" class="content">
+                            <h2>REL</h2>
+                            <p>O retículo endoplasmático liso (REL) é uma organela presente nas células eucarióticas,
+                                caracterizada pela ausência de ribossomos em sua superfície, o que lhe dá um aspecto
+                                liso.
+                                Suas funções são diversas, incluindo a síntese de lipídios (como fosfolipídios e
+                                colesterol), o metabolismo de carboidratos, a desintoxicação de substâncias tóxicas e o
+                                armazenamento de íons de cálcio, essencial para processos como a contração muscular. O
+                                REL é
+                                especialmente abundante em células que realizam a síntese de hormônios esteroides, como
+                                as
+                                células das glândulas suprarrenais, e em células do fígado, onde auxilia na
+                                desintoxicação
+                                de drogas e outros compostos químicos.</p>
                             <img src="src/reticuloendoplasmatico.png" alt="retículo endoplasmático liso" height="200">
-                        </details>
-                        <details>
-                            <summary>Peroxissomos</summary>
-                            <p> São organelas envolvidas em reações de oxidação, onde ácidos graxos são degradados, e substâncias tóxicas, como o peróxido de hidrogênio, são neutralizadas. Peroxissomos possuem enzimas que convertem o peróxido de hidrogênio em água e oxigênio, protegendo a célula de danos oxidativos. Além disso, participam da degradação de ácidos graxos de cadeia longa, o que é essencial para o metabolismo celular.
+                        </div>
+                        <div id="content10" class="content">
+                            <h2>Peroxissomos</h2>
+                            <p> São organelas envolvidas em reações de oxidação, onde ácidos graxos são degradados, e
+                                substâncias tóxicas, como o peróxido de hidrogênio, são neutralizadas. Peroxissomos
+                                possuem
+                                enzimas que convertem o peróxido de hidrogênio em água e oxigênio, protegendo a célula
+                                de
+                                danos oxidativos. Além disso, participam da degradação de ácidos graxos de cadeia longa,
+                                o
+                                que é essencial para o metabolismo celular.
 
                             </p>
                             <img src="src/peroxissomos.png" alt="peroxissomos" height="200">
-                        </details>
-                        <details>
-                            <summary>Membrana Plasmática</summary>
-                            <p> A membrana plasmática envolve todas as células e regula o que entra e sai delas. Composta por uma bicamada lipídica com proteínas embutidas, essa estrutura semipermeável mantém o ambiente interno estável (homeostase), permitindo a entrada de nutrientes e a expulsão de resíduos. Além disso, as proteínas da membrana desempenham funções de comunicação celular e transporte de moléculas.
+                        </div>
+                        <div id="content11" class="content">
+                            <h2>Membrana Plasmática</h2>
+                            <p> A membrana plasmática envolve todas as células e regula o que entra e sai delas.
+                                Composta
+                                por uma bicamada lipídica com proteínas embutidas, essa estrutura semipermeável mantém o
+                                ambiente interno estável (homeostase), permitindo a entrada de nutrientes e a expulsão
+                                de
+                                resíduos. Além disso, as proteínas da membrana desempenham funções de comunicação
+                                celular e
+                                transporte de moléculas.
                             </p>
                             <img src="src/membranaplasmatica.png" alt="membrana plasmática" height="200">
-                        </details>
-                        <details>
-                            <summary>Centríolos</summary>
-                            <p> Os centríolos são pequenas estruturas cilíndricas formadas por microtúbulos, encontrados nas células animais, próximos ao núcleo, dentro do centrossomo. Eles desempenham um papel fundamental na divisão celular, ajudando a organizar o fuso mitótico que separa os cromossomos durante a mitose e a meiose. Além disso, os centríolos participam na formação de cílios e flagelos, estruturas que ajudam na locomoção celular. Apesar de essenciais em células animais, muitas células vegetais não possuem centríolos, utilizando outras estruturas para auxiliar na divisão celular.
+                        </div>
+                        <div id="content12" class="content">
+                            <h2>Centríolos</h2>
+                            <p> Os centríolos são pequenas estruturas cilíndricas formadas por microtúbulos, encontrados
+                                nas
+                                células animais, próximos ao núcleo, dentro do centrossomo. Eles desempenham um papel
+                                fundamental na divisão celular, ajudando a organizar o fuso mitótico que separa os
+                                cromossomos durante a mitose e a meiose. Além disso, os centríolos participam na
+                                formação de
+                                cílios e flagelos, estruturas que ajudam na locomoção celular. Apesar de essenciais em
+                                células animais, muitas células vegetais não possuem centríolos, utilizando outras
+                                estruturas para auxiliar na divisão celular.
                             </p>
                             <img src="src/centriolos.png" alt="centríolos" height="200">
-                        </details>
-                        <details>
-                            <summary>Parede Celular</summary>
-                            <p>Presente em células vegetais, fungos e algumas bactérias, a parede celular é uma estrutura rígida que oferece suporte mecânico e proteção. Nas plantas, é composta principalmente de celulose, um polissacarídeo que confere resistência. A parede celular também ajuda a regular a entrada e saída de substâncias e a manter a forma da célula.
+                        </div>
+                        <div id="content13" class="content">
+                            <h2>Parede Celular</h2>
+                            <p>Presente em células vegetais, fungos e algumas bactérias, a parede celular é uma
+                                estrutura
+                                rígida que oferece suporte mecânico e proteção. Nas plantas, é composta principalmente
+                                de
+                                celulose, um polissacarídeo que confere resistência. A parede celular também ajuda a
+                                regular
+                                a entrada e saída de substâncias e a manter a forma da célula.
                             </p>
-                            <img src="src/paredecelular.png" alt="parede celular" height="200" >
-                        </details>
-                        <details>
-                            <summary>Vacúolos</summary>
-                            <p>O vacúolo central, especialmente desenvolvido em células vegetais, é uma grande vesícula que armazena água, íons, nutrientes e resíduos. Ele mantém a pressão de turgor, essencial para a sustentação das plantas, e também pode armazenar substâncias tóxicas ou de defesa contra herbívoros. Em células animais, vacúolos são menores e têm funções variadas, incluindo armazenamento e transporte de materiais.</p>
+                            <img src="src/paredecelular.png" alt="parede celular" height="200">
+                        </div>
+                        <div id="content14" class="content">
+                            <h2>Vacúolos</h2>
+                            <p>O vacúolo central, especialmente desenvolvido em células vegetais, é uma grande vesícula
+                                que
+                                armazena água, íons, nutrientes e resíduos. Ele mantém a pressão de turgor, essencial
+                                para a
+                                sustentação das plantas, e também pode armazenar substâncias tóxicas ou de defesa contra
+                                herbívoros. Em células animais, vacúolos são menores e têm funções variadas, incluindo
+                                armazenamento e transporte de materiais.</p>
                             <img src="src/vacuolo.png" alt="vacúolos" height="200">
-                        </details>
+                        </div>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
+        </section>
+    </main>
+    <footer>
 
-            <h4>&copy; 2024 BIOLOGIA</h4>
-        </footer>
+        <h4>&copy; 2024 BIOLOGIA</h4>
+    </footer>
 
 </body>
+
 </html>
