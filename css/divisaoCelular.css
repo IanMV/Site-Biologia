@@ -1,39 +1,146 @@
+
+main section.explicacao h1 {
+    font-family: "Italiana", sans-serif;
+    color: #11091A;
+    font-size: 8rem;
+    padding: 4vw 0 3vw 0;
+    text-align: center;
+}
+
+main section.explicacao p {
+    color: #11091A;
+    font-family: "Jacques Francois", sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1vw 10vw 4vw 10vw;
+}
+
+.cinza{
+    background-color: #626970;
+    padding-bottom: 3vw;
+}
+
+
+
+.cicloCelular p{
+    padding: 4vw 0 3vw 0;
+    font-size: 1.7rem;
+    font-family: "Jacques Francois", sans-serif;
+    text-align: center;
+    color: #BAB195;
+    margin: 0 25vw 0 25vw;
+    line-height: 2.5rem;
+}
+
+.cicloCelular details{
+    padding: 1vw 0 3vw 23vw;
+    font-size: 1.7rem;
+    font-family: "Jacques Francois", sans-serif;
+    color: #BAB195;
+    line-height: 2.5rem;
+}
+
+.cicloCelular details summary{
+    list-style: disc;
+    cursor: pointer;
+}
+
+.cicloCelular details summary:hover{
+    text-decoration: underline;
+    transform: scale(1.01);
+    color: #a8a085;
+}
+
+.cicloCelular details p{
+    padding: 0;
+    font-size: 1.7rem;
+    font-family: "Jacques Francois", sans-serif;
+    color: #BAB195;
+    margin: 2vw 25vw 0 0 ;
+    line-height: 2.5rem;
+}
+
+/*===================================================
+            TIPOS DE DIVISÃO CELULAR
+=====================================================*/
+
+div.mitose , .meiose{
+    align-items: center;
+    display: flex;
+    background-color: #11091A;
+    margin: 10vw;
+    border-radius: 3vw;
+    padding: 3vw;
+}
+
+div.mitose h3, .meiose h3{
+    padding-bottom: 3vw;
+}
+
+div.mitose p:last-child, .meiose p:last-child{
+    padding-bottom: 5vw;
+}
+
+/*===================================================
+                CARROSSÉIS
+=====================================================*/
 .espaco-carrossel {
     position: relative;
-    width: 400px;
-    margin: 50px auto;
+    width: 1500px;
+    margin: 0 1vw 0 4vw;
     text-align: center;
-    overflow: hidden;
-    border: 1px solid #adadad21; /* Opcional: borda para visualização */
-    padding: 20px; /* Opcional: espaçamento interno */
+    Overflow-y: auto;
+    scrollbar-width: none;
+    border: 1px solid #adadad21;
+    padding: 50px;
     border-radius: 30px;
 }
 
 .carrossel-box div {
-    display: none; /* Oculta todos os parágrafos por padrão */
+    min-height: 50vh;
+    Max-height: 50vh;
+    display: none;
     font-size: 18px;
+    line-height: 2.1rem;
+}
+
+.carrossel-box div h4 {
+    padding-bottom: 30px;
+    font-size: 3rem;
+    font-family: "Jacques Francois", sans-serif;
+    text-align: center;
+    color: #BAB195;
+}
+
+.carrossel-box div span {
+    color: rgb(186, 177, 149);
 }
 
 .carrossel-box div.active {
-    display: block; /* Mostra apenas o parágrafo ativo */
+    display: block;
 }
 
-.ante, .prox {
+button.ante, button.prox {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: #333;
-    color: white;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    background-color: transparent; /* Transparente */
     border: none;
-    padding: 10px;
+    color: #000; /* Cor do texto se necessário */
+    font-size: 18px; /* Tamanho do texto */
     cursor: pointer;
-    font-size: 16px;
+    z-index: 1;
 }
 
-.ante {
-    left: 10px;
+button.ante {
+    left: 0; /* Posiciona na extremidade esquerda */
 }
 
-.prox {
-    right: 10px;
+button.prox {
+    right: 0; /* Posiciona na extremidade direita */
+}
+
+button.ante:hover, button.prox:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Leve destaque ao passar o mouse */
 }
