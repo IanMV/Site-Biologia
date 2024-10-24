@@ -1,0 +1,39 @@
+.espaco-carrossel {
+    position: relative;
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid #adadad21; /* Opcional: borda para visualização */
+    padding: 20px; /* Opcional: espaçamento interno */
+    border-radius: 30px;
+}
+
+.carrossel-box div {
+    display: none; /* Oculta todos os parágrafos por padrão */
+    font-size: 18px;
+}
+
+.carrossel-box div.active {
+    display: block; /* Mostra apenas o parágrafo ativo */
+}
+
+.ante, .prox {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.ante {
+    left: 10px;
+}
+
+.prox {
+    right: 10px;
+}

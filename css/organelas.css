@@ -22,10 +22,11 @@ main section.explicacao p {
         padding: 1vw 10vw 4vw 10vw;
 }
 
-main section.organelas p{
+main section.organelas p {
         line-height: 3rem;
-        
+
 }
+
 main section.organelas div.container {
         background-color: #626970;
         display: flex;
@@ -44,7 +45,7 @@ main section.organelas div.container ul {
 
 }
 
-main section.organelas div.container li{
+main section.organelas div.container li {
         list-style: none;
         font-weight: bold;
         cursor: pointer;
@@ -70,9 +71,13 @@ main section.organelas div.container li:hover {
         display: none;
         z-index: 10;
         transition: all 0.3s ease;
+        Max-height: 80vh;
+        Overflow-y: auto;
+        Width: 60vw; 
+        scrollbar-width: none;
 }
 
-.info-box h2{
+.info-box h2 {
         font-family: "Italiana", sans-serif;
         color: #E8D18E;
         text-align: center;
@@ -80,8 +85,8 @@ main section.organelas div.container li:hover {
         padding-bottom: 1vw;
 }
 
-.info-box img{
-        margin-left: 22vw;
+.info-box img {
+        margin: 2vw 20vw 2vw 20vw;
 }
 
 div.content {

@@ -143,6 +143,7 @@ table {
 =========================*/
 html {
     background-color: #BAB195;
+    scrollbar-width: none;
 }
 
 html div.divisao {
@@ -203,7 +204,7 @@ header div nav ul li a {
 }
 
 header div nav ul li.separarInicio {
-    padding: 2vw 40vw 0 0;
+    padding: 2vw 30vw 0 0;
 }
 
 
