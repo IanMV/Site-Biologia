@@ -82,3 +82,9 @@ hr.divisoriasMenores {
 }
 
 
+a,abbr {
+        text-decoration: none;
+        color: #E8D18E;
+    }
+
+
