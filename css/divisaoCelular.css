@@ -15,6 +15,10 @@ main section.explicacao p {
     padding: 1vw 10vw 4vw 10vw;
 }
 
+ html a:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
 .cinza{
     background-color: #626970;
     padding-bottom: 3vw;

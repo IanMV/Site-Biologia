@@ -33,23 +33,24 @@ main section.conteudo {
         background-color: #626970;
 }
 
-main section.conteudo div.informacoeses {
+main section.conteudo div.informacoes {
         display: flex;
-        justify-content: center;
-}
-
-main section.conteudo div.informacoeses div {
+        justify-content: space-between;
         
-        justify-content: center;
 }
 
-main section.conteudo div.informacoeses div h3 {
+main section.conteudo div.informacoes div {
         text-align: center;
-}
-
-main section.conteudo div.informacoeses div p {
-        text-align: center;
+        padding: 5vw 5vw 5vw 5vw;
         
+}
+
+main section.conteudo h3 {
+        padding-bottom: 2vw;
+}
+
+a {
+        color: #E8D18E;
 }
 
 

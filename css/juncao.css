@@ -42,7 +42,7 @@ summary {
     
 }
 .explicacao h3:hover {
-    color: #7700ff;
+    text-decoration: underline;
 }
 
 .explicacao p {

@@ -116,7 +116,11 @@ hr.divisoriasMenores {
 div.content {
         display: none;
 }
-
+html a:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+    
 div.content.active {
         display: block;
 }

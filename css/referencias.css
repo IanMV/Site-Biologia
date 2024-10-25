@@ -40,3 +40,7 @@ main section.referencias ul li {
     padding: 2vw 0 0 0;
     text-align: center;
 }
+
+.referencias a:hover {
+    color: #11091A;
+}

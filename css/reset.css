@@ -117,7 +117,7 @@ ol,
 ul {
     list-style: none;
 }
-
+Fase
 blockquote,
 q {
     quotes: none;
@@ -180,10 +180,6 @@ html p {
     
 }
 
-html a:hover {
-    cursor: pointer;
-    color: #7700ff;
-}
 
 
 
@@ -218,6 +214,10 @@ header div nav ul li a {
 
 header div nav ul li.separarInicio {
     padding: 2vw 42vw 0 0;
+}
+
+header nav a:hover {
+    text-decoration: underline;
 }
 
 
