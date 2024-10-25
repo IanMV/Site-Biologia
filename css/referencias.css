@@ -32,9 +32,6 @@ main section.referencias ul li a{
     font-family: "Jacques Francois", sans-serif;
     font-size: 3rem;   
 }
-main section.referencias a:hover {
-    color: #11091A;
-}
 
 main section.referencias ul {
     padding: 7vw 0 7vw 0;

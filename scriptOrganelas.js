@@ -42,3 +42,8 @@ function openTab(contentId) {
         document.body.classList.remove('no-scroll');
     };
 }
+
+
+function link() {
+    openTab
+}

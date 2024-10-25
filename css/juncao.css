@@ -1,7 +1,14 @@
 /* Arranco o dedo de quem mexer no meu css */
 
+/*mexi mano dsculpa*/
+
+html {
+    background-color:  #626970;
+}
+
 .intro {
     text-align: center;
+    background-color: #BAB195;
 }
 
 .intro h1 {
@@ -19,22 +26,23 @@
 .intro div {
     margin-bottom: 8vw;
 }
+
+
 summary {
     list-style: none;
 }
- .explicacao h3 {
+ .explicacao h3 {cursor: pointer;
     background-color: #11091A;
     margin: 4vw 5vw 4vw 5vw;
     padding: 3vw 2vw 3vw 5vw;
     border-radius: 20px;
-    text-align: left;
+    text-align: center;
     font-family: "Italiana", sans-serif;
-    color: #BAB195;
+   
     
 }
-
 .explicacao h3:hover {
-    text-decoration: underline 2px #BAB195;
+    color: #7700ff;
 }
 
 .explicacao p {

@@ -110,7 +110,7 @@ section {
 }
 
 body {
-    line-height: 1;
+    line-height: 1.3;
 }
 
 ol,
@@ -158,6 +158,10 @@ html div.divisao h2 {
     font-size: 2.5rem;
 }
 
+html b {
+    color: #E8D18E;
+    
+}
 
 
 html h3 {
@@ -173,7 +177,16 @@ html p {
     font-family: "Jacques Francois", sans-serif;
     font-size: 1.8rem;
     text-align: center;
+    
 }
+
+html a:hover {
+    cursor: pointer;
+    color: #7700ff;
+}
+
+
+
 
 /* ========================
 
@@ -187,24 +200,24 @@ header {
 header div nav ul {
     justify-content: right;
     display: flex;
-    padding: 0 1vw 0 0;
+    padding: 0 2vw 0 0;
 }
 
 header div nav ul li {
     list-style: none;
-    padding: 2vw 2vw 2vw 2vw;
+    padding: 2vw 1vw 2vw 1vw;
 }
 
 header div nav ul li a {
     text-decoration: none;
     color: #BAB195;
     font-family: "Jacques Francois", serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
 
 header div nav ul li.separarInicio {
-    padding: 2vw 30vw 0 0;
+    padding: 2vw 42vw 0 0;
 }
 
 

@@ -2,6 +2,13 @@
         Primeira divisão
 --------------------------*/
 
+
+
+
+p {
+        padding: 2vw 0 1vw 0;
+}
+
 main section.explicacao {
         background-color: #BAB195;
 }
@@ -22,15 +29,18 @@ main section.explicacao p {
         padding: 1vw 10vw 4vw 10vw;
 }
 
+
+
 main section.organelas p {
         line-height: 3rem;
+
 
 }
 
 main section.organelas div.container {
         background-color: #626970;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         padding: 0 10vw 0 10vw;
 }
 
@@ -52,11 +62,25 @@ main section.organelas div.container li {
         overflow: hidden;
         white-space: nowrap;
         padding: 3vw;
+        margin: 0 2vw 0 2vw;
 }
 
 main section.organelas div.container li:hover {
         transform: scale(1.1);
 }
+
+hr.divisoriaMaior {
+        border: #11091A solid 1px
+}
+
+hr.divisoriasMenores {
+        border: none;
+        height: 2px;
+        background-color: #11091A;
+
+
+}
+
 
 /*---------------------------------------------------
                 EU VOU PEGA NA PORRADA QUEM MUDAR ESSAS CLASS, ATT CAUÊ
@@ -73,7 +97,7 @@ main section.organelas div.container li:hover {
         transition: all 0.3s ease;
         Max-height: 80vh;
         Overflow-y: auto;
-        Width: 60vw; 
+        Width: 60vw;
         scrollbar-width: none;
 }
 
