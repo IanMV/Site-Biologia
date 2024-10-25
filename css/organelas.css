@@ -85,10 +85,12 @@ hr.divisoriasMenores {
 a{
         text-decoration: none;
         color: #E8D18E;
+        cursor: pointer;
     }
-    abbr {
+abbr {
         text-decoration: none;
         color: #E8D18E;
+        cursor: pointer;
     }
 
 
