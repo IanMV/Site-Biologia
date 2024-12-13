@@ -117,8 +117,8 @@ ol,
 ul {
     list-style: none;
 }
-Fase
-blockquote,
+
+Fase blockquote,
 q {
     quotes: none;
 }
@@ -161,6 +161,7 @@ html div.divisao h2 {
 html b {
     color: #E8D18E;
 }
+
 summary.organelas {
     cursor: pointer;
     font-size: 2.3rem;
@@ -182,26 +183,13 @@ html p {
     font-family: "Jacques Francois", sans-serif;
     font-size: 1.8rem;
     text-align: center;
-    
+
 }
-
-
-
-
-
-
-
-
 /* ========================
 
           Cabeçalho
 
 =========================*/
-
-
-
-
-
 header {
     background-color: #11091A;
 }
@@ -232,8 +220,6 @@ header div nav ul li.separarInicio {
 header nav a:hover {
     text-decoration: underline;
 }
-
-
 /* ========================
 
           Rodapé
@@ -245,9 +231,6 @@ footer {
     text-align: center;
     padding: 3vw 0 3vw 0;
 }
-
-
-
 /*---------------------------------------------------
                 EU VOU PEGA NA PORRADA QUEM MUDAR ESSAS CLASS, ATT CAUÊ
 ----------------------------------------------------*/
@@ -278,38 +261,17 @@ footer {
 .info-box img {
     margin: 2vw 20vw 2vw 20vw;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+:root {
+    --roxo: #641f5e;
+    --roxo-desbotado: #676077;
+    --verde-desbotado: #65ac92;
+    --bege-meio-verde: #c2c092;
+    --bege-claro: #edd48e;
+}
 div.content {
     display: none;
 }
+
 html a:hover {
     cursor: pointer;
     transform: scale(1.1);

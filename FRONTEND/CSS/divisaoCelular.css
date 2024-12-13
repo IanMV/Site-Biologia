@@ -1,66 +1,75 @@
+:root {
+    --preto: #11091A;
+    --cinza: #626970;
+    --bege: #BAB195;
+    --cinza-claro: #a8a085;
+    --cinza-escuro: #adadad21;
+}
+
 
 main section.explicacao h1 {
     font-family: "Italiana", sans-serif;
-    color: #11091A;
+    color: var(--preto);
     font-size: 8rem;
     padding: 4vw 0 3vw 0;
     text-align: center;
 }
 
 main section.explicacao p {
-    color: #11091A;
+    color: var(--preto);
     font-family: "Jacques Francois", sans-serif;
     font-size: 2.2rem;
     text-align: center;
     padding: 1vw 10vw 4vw 10vw;
 }
 
- html a:hover {
+html a:hover {
     cursor: pointer;
     transform: scale(1.1);
 }
-.cinza{
-    background-color: #626970;
+
+.cinza {
+    background-color: var(--cinza);
     padding-bottom: 3vw;
 }
 
 
 
-.cicloCelular p{
+.cicloCelular p {
     padding: 4vw 0 3vw 0;
     font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
     text-align: center;
-    color: #BAB195;
+    color: var(--bege);
     margin: 0 25vw 0 25vw;
     line-height: 2.5rem;
 }
 
-.cicloCelular details{
+.cicloCelular details {
     padding: 1vw 0 3vw 23vw;
     font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
-    color: #BAB195;
+    color: var(--bege);
     line-height: 2.5rem;
 }
 
-.cicloCelular details summary{
+.cicloCelular details summary {
     list-style: disc;
     cursor: pointer;
 }
 
-.cicloCelular details summary:hover{
+.cicloCelular details summary:hover {
     text-decoration: underline;
     transform: scale(1.01);
-    color: #a8a085;
+    color: var(--cinza-claro);
 }
 
-.cicloCelular details p{
+.cicloCelular details p {
     padding: 0;
     font-size: 1.7rem;
     font-family: "Jacques Francois", sans-serif;
-    color: #BAB195;
-    margin: 2vw 25vw 0 0 ;
+    color: var(--bege);
+    margin: 2vw 25vw 0 0;
     line-height: 2.5rem;
 }
 
@@ -68,20 +77,23 @@ main section.explicacao p {
             TIPOS DE DIVISÃO CELULAR
 =====================================================*/
 
-div.mitose , .meiose{
+div.mitose,
+.meiose {
     align-items: center;
     display: flex;
-    background-color: #11091A;
+    background-color: var(--preto);
     margin: 10vw;
     border-radius: 3vw;
     padding: 3vw;
 }
 
-div.mitose h3, .meiose h3{
+div.mitose h3,
+.meiose h3 {
     padding-bottom: 3vw;
 }
 
-div.mitose p:last-child, .meiose p:last-child{
+div.mitose p:last-child,
+.meiose p:last-child {
     padding-bottom: 5vw;
 }
 
@@ -95,7 +107,7 @@ div.mitose p:last-child, .meiose p:last-child{
     text-align: center;
     Overflow-y: auto;
     scrollbar-width: none;
-    border: 1px solid #adadad21;
+    border: 1px solid var(--cinza-escuro);
     padding: 50px;
     border-radius: 30px;
 }
@@ -113,38 +125,46 @@ div.mitose p:last-child, .meiose p:last-child{
     font-size: 3rem;
     font-family: "Jacques Francois", sans-serif;
     text-align: center;
-    color: #BAB195;
+    color: var(--bege);
 }
 
 .carrossel-box div span {
-    color: rgb(186, 177, 149);
+    color: var(--bege);
 }
 
 .carrossel-box div.active {
     display: block;
 }
 
-button.ante, button.prox {
+button.ante,
+button.prox {
     position: absolute;
     top: 0;
     bottom: 0;
     width: 50px;
-    background-color: transparent; /* Transparente */
+    background-color: transparent;
+    /* Transparente */
     border: none;
-    color: #000; /* Cor do texto se necessário */
-    font-size: 18px; /* Tamanho do texto */
+    color: var(--preto);
+    /* Cor do texto se necessário */
+    font-size: 18px;
+    /* Tamanho do texto */
     cursor: pointer;
     z-index: 1;
 }
 
 button.ante {
-    left: 0; /* Posiciona na extremidade esquerda */
+    left: 0;
+    /* Posiciona na extremidade esquerda */
 }
 
 button.prox {
-    right: 0; /* Posiciona na extremidade direita */
+    right: 0;
+    /* Posiciona na extremidade direita */
 }
 
-button.ante:hover, button.prox:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Leve destaque ao passar o mouse */
+button.ante:hover,
+button.prox:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Leve destaque ao passar o mouse */
 }
