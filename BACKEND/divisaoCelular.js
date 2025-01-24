@@ -1,3 +1,4 @@
+
 function createCarousel(carouselId) {
     let currentIndex = 0;
     const carouselContainer = document.getElementById(carouselId);

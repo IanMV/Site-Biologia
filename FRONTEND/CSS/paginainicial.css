@@ -86,7 +86,7 @@ main section.conteudo div.linkises div.saiba0 {
     justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('eucarionteprocarionte.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('../SRC/IMAGENS/BACKGROUNDS/eucarionteprocarionte.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,7 +117,7 @@ main section.conteudo div.linkises div.saiba1 {
     border: #11091A 10px solid;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('background01.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('../SRC/IMAGENS/BACKGROUNDS/background01.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -151,7 +151,7 @@ main section.conteudo div.linkises div.saiba2 {
     justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('organela.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('../SRC/IMAGENS/BACKGROUNDS/organela.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -182,7 +182,7 @@ main section.conteudo div.linkises div.saiba3 {
     justify-content: center;
     border-radius: 2vw;
     margin: 0 10vw 0 10vw;
-    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('divisaoCelular.jpeg');
+    background: linear-gradient(rgba(0, 0, 0, 0.800), rgba(0, 0, 0, 0.800)), url('../SRC/IMAGENS/BACKGROUNDS/divisaoCelular.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
